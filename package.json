@@ -1,10 +1,47 @@
 {
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "hardhat": "^2.12.4"
+  "name": "crypto-tea",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network baseSepolia",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network baseMainnet",
+    "verify": "hardhat verify --network baseSepolia",
+    "test:local": "hardhat run scripts/test.js"
   },
   "dependencies": {
-    "create-react-app": "^5.0.1",
-    "dotenv": "^16.4.5"
+    "@coinbase/onchainkit": "^0.38.13",
+    "@tanstack/react-query": "^5.80.6",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "ethers": "^6.14.3",
+    "framer-motion": "^12.16.0",
+    "lucide-react": "^0.513.0",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-dom": "^18",
+    "shadcn": "^2.6.1",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "viem": "^2.31.0",
+    "wagmi": "^2.15.6"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.3.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "dotenv": "^16.5.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "hardhat": "^2.24.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
