@@ -29,7 +29,7 @@ A decentralized application that lets you buy tea for someone, but onchain! Supp
 
 ### Prerequisites
 
-- Node.js 16.x or later
+- Node.js 14.x or later
 - MetaMask or compatible Web3 wallet
 - Git
 
@@ -37,7 +37,7 @@ A decentralized application that lets you buy tea for someone, but onchain! Supp
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/crypto-tea.git
+git clone https://github.com/smilewithkhushi/crypto-tea.git
 cd crypto-tea
 ```
 
@@ -73,10 +73,6 @@ The smart contract is deployed on Base network. Key features:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Support
 
-If you found this project helpful, consider buying me a tea! ☕
+If you found this project helpful, consider starring this repo or buying me a tea! ☕
