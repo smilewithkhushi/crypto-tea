@@ -14,7 +14,7 @@ A decentralized application that lets you buy tea for someone, but onchain! Supp
 | ![Frontend](/screenshots/2-frontend.png) | ![Frontend](/screenshots/4-transaction.png) |
 | ![Screenshot 2](/screenshots/3-frontend.png) | ![Frontend](/screenshots/5-success.png) |
 | Contract Deployment |  |
-| ![contract](/screenshots/1-contract-deployment.png) |  |
+| ![contract](/screenshots/1-contract-deployed.png) |  |
 
 
 ## Getting Started
